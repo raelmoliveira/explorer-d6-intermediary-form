@@ -1,0 +1,197 @@
+/* Fontes
+font-family: 'Poppins', sans-serif;
+font-family: 'Staatliches', cursive;
+*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 62.5%; /* Equivale a 10px */
+}
+
+body {
+  background-color: #EFEFEF;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+}
+
+body::before {
+  content: '';
+  width: 100%;
+  height: 43.6rem;
+
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  background: #535971;
+}
+
+.page {
+  width: 108rem;
+  margin: 0 auto;
+}
+
+header {
+  width: 41.7rem;
+  margin-top: 14rem;
+}
+
+h1, legend, h2, button {
+  font-family: 'Staatliches', cursive;
+  font-weight: 400;
+}
+
+header h1 {
+  font-size: 4.8rem;
+  line-height: 6rem;
+
+  color: #FFFFFF;
+
+  margin-bottom: 1.8rem;
+}
+
+header p {
+  font-size: 2rem;
+  line-height: 3rem;
+
+  color: #FFFFFF;
+
+  margin-bottom: 5.8rem;
+}
+
+form {
+  background: #FFFFFF;
+  border-radius: 20px 20px 0px 0px;
+
+  padding: 6.4rem;
+
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+
+fieldset {
+  border: 0;
+}
+
+.fieldset_wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
+}
+
+.fieldset_wrapper + .fieldset_wrapper {
+  margin-top: 3.2rem;
+}
+
+fieldset legend {
+  font-size: 2.4rem;
+  line-height: 3.4rem;
+
+  margin-bottom: 3.2rem;
+  padding-bottom: 1.6rem;
+  border-bottom: 1px solid #E6E6F0;
+  
+  color: #535971;
+}
+
+.input_wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.input_wrapper label {
+  font-size: 1.4rem;
+  line-height: 2.4rem;
+
+  margin-bottom: 8px;
+  color: #4E4958;
+}
+
+.input_wrapper label span {
+  font-size: 12px;
+  line-height: 20px;
+
+  color: #C1BCCC;
+}
+
+.input_wrapper label span:hover {
+  color: #6d6b72;
+}
+
+.input_wrapper input {
+  height: 5.6rem;
+  padding: 0 2.4rem;
+
+  background: #FAFAFC;
+
+  border: 1px solid #E6E6F0;
+  border-radius: 8px;
+}
+
+.col-2 {
+  display: flex;
+  gap: 2rem;
+}
+
+.col-2 div {
+  width: 100%;
+}
+
+h2 {
+  margin-bottom: 1rem;
+  font-size: 2rem;
+  line-height: 3.4rem;
+
+  color: #535971;
+}
+
+.second_mentorship {
+  margin-top: 1.6rem;
+}
+
+.col-3 {
+  display: flex;
+  gap: 1rem;
+}
+
+.col-3 div:nth-child(1) {
+  margin-right: 2.2rem;
+  width: 100%;
+}
+
+footer {
+  height: 16rem;
+
+  display: flex;
+  flex-direction: column;
+  padding: 5.3rem 7rem;
+  margin-bottom: 10rem;
+
+  background: #535971;
+  border-radius: 0px 0px 20px 20px;
+}
+
+footer button {
+height: 5.6rem;
+padding: 1.5rem 4rem;
+
+text-align: center;
+font-size: 2rem;
+line-height: 2.6rem;
+
+color: #FFFFFF;
+
+background: #FF5374;
+border-radius: 20px;
+border: none;
+}
+
+footer button:hover {
+background: #c9415c;
+}
